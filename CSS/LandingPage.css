@@ -1,0 +1,119 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(to right, #26874E, #7900ac);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      background: white;
+      color: #7900ac;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #26874E;
+      color: white;
+    }
+
+    /* BENEFÍCIOS */
+    .benefits {
+      padding: 50px 20px;
+      text-align: center;
+      background: #f4f4f4;
+    }
+
+    .benefits h2 {
+      margin-bottom: 30px;
+    }
+
+    .benefit-box {
+      display: inline-block;
+      width: 250px;
+      margin: 15px;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .benefit-box:hover {
+      transform: translateY(-10px);
+    }
+
+    /* DEPOIMENTOS */
+    .testimonials {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .testimonial {
+      max-width: 600px;
+      margin: 20px auto;
+      font-style: italic;
+      color: #555;
+    }
+
+    .testimonial strong {
+      display: block;
+      margin-top: 10px;
+      color: #333;
+    }
+
+    /* CTA */
+    .cta {
+      background: #7900ac;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .cta h2 {
+      margin-bottom: 20px;
+    }
+
+    .cta .btn {
+      background: white;
+      color: #7900ac;
+    }
+
+    .cta .btn:hover {
+      background: #26874E;
+      color: white;
+    }
+
+    /* RODAPÉ */
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário de Contato</title>
+
+  <style>
+   
+  </style>
+</head>
+
+<body>
+
+  <div class="form-container">
+    <h2>Fale Conosco</h2>
+
+    <form>
+
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Digite seu nome" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="Digite seu e-mail" required>
+      </div>
+
+      <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" placeholder="(00) 00000-0000">
+      </div>
+
+      <div class="form-group">
+        <label for="assunto">Assunto</label>
+        <select id="assunto">
+          <option value="">Selecione</option>
+          <option>Dúvida</option>
+          <option>Orçamento</option>
+          <option>Suporte</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" placeholder="Digite sua mensagem"></textarea>
+      </div>
+
+      <button type="submit" class="btn">Enviar</button>
+
+    </form>
+  </div>
+
+</body>
+</html>
